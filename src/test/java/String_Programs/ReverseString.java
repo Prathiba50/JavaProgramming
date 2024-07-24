@@ -26,6 +26,7 @@ public class ReverseString {
         //Approch-2
         String s1 = "testing";
         StringBuilder sb = new StringBuilder(s1);
+        StringBuffer sbf = new StringBuffer();
         System.out.println("Approach-2: "+sb.reverse());
 
         //Approach-3
