@@ -33,12 +33,12 @@ public class SecLargetInAnArray {
 
         for(int i=size-2; i>=0 ; i--) {
             if (a[i] != a[size - 1]) {
-                System.out.println("The second largest number in an array is: " + a[i]);
+                System.out.println("The second largest number cab an array is: " + a[i]);
                 return;
             }
         }
 
-        System.out.println("There is no second largest number in an array...");
+        System.out.println("There is no second largest number cab an array...");
      }
 }
 

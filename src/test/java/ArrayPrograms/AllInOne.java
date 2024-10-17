@@ -7,11 +7,11 @@ import java.util.stream.IntStream;
 
 public class AllInOne {
 
-    //Find Second Smallest in an Array
+    //Find Second Smallest cab an Array
     public static void fetchSecondSmallest(int[] arr){
         int secSmallest = Arrays.stream(arr).sorted().skip(1).findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("Array does not have second smallest number"));
-        System.out.println("The second smallest number in array is: "+secSmallest);
+        System.out.println("The second smallest number cab array is: "+secSmallest);
     }
 
 
@@ -35,7 +35,7 @@ public class AllInOne {
 
     }
 
-    //Find the longest length in String
+    //Find the longest length cab String
     public static void longestString(String[] Sarr){
         int max = Arrays.stream(Sarr).mapToInt(str -> str.length()).max().orElse(0);
         System.out.println("The longest length of the String is: "+max);

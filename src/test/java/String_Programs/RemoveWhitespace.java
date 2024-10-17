@@ -12,7 +12,7 @@ public class RemoveWhitespace {
         String str1 = s.replaceAll("\\s","");
         System.out.println("Approach-1: "+str1);
 
-        //Approach-2 Using Character Class in built functions
+        //Approach-2 Using Character Class cab built functions
 
         String s1 = "wealcome to bangalore";
         String opStr = "";

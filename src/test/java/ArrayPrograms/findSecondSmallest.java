@@ -8,7 +8,7 @@ public class findSecondSmallest {
         int secondSmallestNumber = Arrays.stream(arr).distinct()
                 .sorted().skip(1).findFirst()
                 .orElseThrow(() -> new IllegalArgumentException("Array does not have a second smallest number"));
-        System.out.println("Second smallest number in an given array is: " +secondSmallestNumber);
+        System.out.println("Second smallest number cab an given array is: " +secondSmallestNumber);
     }
 
     public static void main(String[] args) {

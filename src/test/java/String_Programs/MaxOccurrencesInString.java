@@ -33,7 +33,7 @@ public class MaxOccurrencesInString {
         System.out.println("Enter the String:..");
         String str = sc.nextLine();
         Map<Character,Integer> result = findMaxOccurence(str);
-        System.out.println("Maximum Character in a string is: "+result.keySet().iterator().next()+" Of times "+count);
+        System.out.println("Maximum Character cab a string is: "+result.keySet().iterator().next()+" Of times "+count);
 
 
     }

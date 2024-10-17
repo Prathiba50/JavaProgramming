@@ -19,6 +19,6 @@ public class ReverseWordSentance {
             }
             revStr= revStr+revWord+" ";
         }
-        System.out.println("Reversed each word in the sentence: "+revStr);
+        System.out.println("Reversed each word cab the sentence: "+revStr);
     }
 }

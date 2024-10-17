@@ -21,8 +21,8 @@ public class CountVowels {
                 cCount++;
             }
         }
-        System.out.println("Total number of Vowels in given string are: "+Vcount);
-        System.out.println("Total number of consonants in given string are: "+cCount);
+        System.out.println("Total number of Vowels cab given string are: "+Vcount);
+        System.out.println("Total number of consonants cab given string are: "+cCount);
         }
 }
 
