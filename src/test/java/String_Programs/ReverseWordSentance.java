@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class ReverseWordSentance {
 
     public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        System.out.println("Enter the String: ");
-        String str = s.nextLine();
+//        Scanner s = new Scanner(System.in);
+//        System.out.println("Enter the String: ");
+//        String str = s.nextLine();
 
+        String str = "Venkat is very cuteee..";
         String[] words = str.split(" ");
         String revStr = "";
         for(int i=0; i<words.length;i++) {
